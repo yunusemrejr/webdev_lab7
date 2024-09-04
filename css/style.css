@@ -15,23 +15,21 @@ h1 {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-table, th, td {
-  border: 1px solid #333;
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
 }
 
 th {
-  background-color: #4CAF50;
+  background-color: blue;
   color: white;
-  padding: 10px;
   font-size: 1.2em;
-}
-
-td {
-  text-align: center;
-  padding: 10px;
 }
 
 tr:nth-child(even) {
@@ -39,5 +37,10 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-  background-color: #ddd;
+  background-color: #e0e0e0;
+}
+
+img {
+  width: 60px;
+  height: auto;
 }
